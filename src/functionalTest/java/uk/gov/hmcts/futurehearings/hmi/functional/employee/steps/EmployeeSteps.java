@@ -11,20 +11,15 @@ public class EmployeeSteps {
 
     private String actor;
 
-    @Value("${targetInstance}") private String targetInstance;
+    @Step("#actor routes to {0} in order to get invoke {1}")
+    public void invokeEmployee (final String basePath,
+                                final String api) {
 
-    @Step
-    public void invokeEmployee () {
-
-       /*String responseString = expect().that().statusCode(200)
-                .given().contentType("application/json")
-                .baseUri("http://localhost:4550")
-                .basePath("employees")
-                .when().get().then().extract().asString();*/
+        System.out.println("The value of the base path " + basePath);
         Response response = expect().that().statusCode(200)
                 .given().contentType("application/json")
-                .baseUri("http://localhost:4550")
-                .basePath("employees")
+                .baseUri(basePath)
+                .basePath(api)
                 .when().get().then().extract().response();
         assertEquals(3,response.jsonPath().getList("$").size());
     }

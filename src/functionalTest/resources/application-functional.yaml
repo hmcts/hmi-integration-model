@@ -1,2 +1,2 @@
-targetInstance: ${TEST_URL:http://localhost:8090}
+targetInstance: ${TEST_URL:http://localhost:4550}
 spring.flyway.enabled: false

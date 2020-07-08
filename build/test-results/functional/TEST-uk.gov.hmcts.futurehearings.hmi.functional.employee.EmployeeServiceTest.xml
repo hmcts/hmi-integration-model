@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="uk.gov.hmcts.futurehearings.hmi.functional.employee.EmployeeServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-08T11:28:06" hostname="Pettedsons-MBP.broadband" time="4.517">
+<testsuite name="uk.gov.hmcts.futurehearings.hmi.functional.employee.EmployeeServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-08T21:53:55" hostname="Pettedsons-MBP.broadband" time="6.945">
   <properties/>
-  <testcase name="testSuccessfullPost" classname="uk.gov.hmcts.futurehearings.hmi.functional.employee.EmployeeServiceTest" time="4.517"/>
-  <system-out><![CDATA[12:28:06.465 [Test worker] INFO  - 
+  <testcase name="testSuccessfullGet" classname="uk.gov.hmcts.futurehearings.hmi.functional.employee.EmployeeServiceTest" time="6.945"/>
+  <system-out><![CDATA[22:53:55.523 [Test worker] INFO  - 
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -18,69 +18,43 @@
  Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
 -------------------------------------------------------------------------------------
 
-12:28:06.490 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for class uk.gov.hmcts.futurehearings.hmi.functional.employee.EmployeeServiceTest
-12:28:06.516 [Test worker] INFO  - Test Suite Started: Employee service test
-12:28:06.891 [Test worker] INFO  - 
+22:53:55.536 [Test worker] DEBUG net.serenitybdd.junit.spring.integration.SpringIntegrationClassRule - Applying class rule to class uk.gov.hmcts.futurehearings.hmi.functional.employee.EmployeeServiceTest
+22:53:55.543 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@640b5289 testClass = EmployeeServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@117ca6f7 testClass = EmployeeServiceTest, locations = '{}', classes = '{class uk.gov.hmcts.futurehearings.hmi.functional.Application, class uk.gov.hmcts.futurehearings.hmi.functional.Application}', contextInitializerClasses = '[]', activeProfiles = '{functional}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@219950fa, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@60b28ea6, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@59dbd5e0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@6b80894, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+22:53:55.564 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for class uk.gov.hmcts.futurehearings.hmi.functional.employee.EmployeeServiceTest
+22:53:55.594 [Test worker] INFO  - Test Suite Started: Employee service test
+22:53:56.001 [Test worker] DEBUG net.thucydides.core.model.featuretags.StoryFileStrategy - Story name for employee => story:Employee/Employee service test
+22:53:56.004 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
   | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
 
-testSuccessfullPost
+testSuccessfullGet
 -------------------------------------------------------------------
-The target instance of the Functional Test : null
-12:28:07.476 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: EmployeeServiceTest.testSuccessfullPost - invokeEmployee
-12:28:10.656 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://localhost:4550
-12:28:10.671 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:4550
-12:28:10.709 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
-12:28:10.710 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-12:28:10.711 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
-12:28:10.711 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-12:28:10.712 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-12:28:10.712 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /employees HTTP/1.1
-12:28:10.712 [Test worker] DEBUG org.apache.http.wire -  >> "GET /employees HTTP/1.1[\r][\n]"
-12:28:10.714 [Test worker] DEBUG org.apache.http.wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
-12:28:10.714 [Test worker] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
-12:28:10.714 [Test worker] DEBUG org.apache.http.wire -  >> "Host: localhost:4550[\r][\n]"
-12:28:10.714 [Test worker] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
-12:28:10.715 [Test worker] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.6)[\r][\n]"
-12:28:10.715 [Test worker] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-12:28:10.715 [Test worker] DEBUG org.apache.http.wire -  >> "[\r][\n]"
-12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> GET /employees HTTP/1.1
-12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> Content-Type: application/json; charset=UTF-8
-12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> Accept: */*
-12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> Host: localhost:4550
-12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.6)
-12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-12:28:10.718 [Test worker] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 [\r][\n]"
-12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
-12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
-12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "Date: Wed, 08 Jul 2020 11:28:10 GMT[\r][\n]"
-12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "Keep-Alive: timeout=60[\r][\n]"
-12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
-12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "[\r][\n]"
-12:28:10.721 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 
-12:28:10.721 [Test worker] DEBUG org.apache.http.headers - << HTTP/1.1 200 
-12:28:10.722 [Test worker] DEBUG org.apache.http.headers - << Content-Type: application/json
-12:28:10.722 [Test worker] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
-12:28:10.722 [Test worker] DEBUG org.apache.http.headers - << Date: Wed, 08 Jul 2020 11:28:10 GMT
-12:28:10.722 [Test worker] DEBUG org.apache.http.headers - << Keep-Alive: timeout=60
-12:28:10.722 [Test worker] DEBUG org.apache.http.headers - << Connection: keep-alive
-12:28:10.729 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive for 60000 MILLISECONDS
-12:28:10.748 [Test worker] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
-12:28:10.749 [Test worker] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-12:28:10.792 [Test worker] DEBUG org.apache.http.wire -  << "f0[\r][\n]"
-12:28:10.792 [Test worker] DEBUG org.apache.http.wire -  << "[{"id":1,"firstName":"Lokesh","lastName":"Gupta","email":"howtodoinjava@gmail.com"},{"id":2,"firstName":"Alex","lastName":"Kolenchiskey","email":"abc@gmail.com"},{"id":3,"firstName":"David","lastName":"Kameron","email":"titanic@gmail.com"}]"
-12:28:10.793 [Test worker] DEBUG org.apache.http.wire -  << "[\r][\n]"
-12:28:10.793 [Test worker] DEBUG org.apache.http.wire -  << "0[\r][\n]"
-12:28:10.793 [Test worker] DEBUG org.apache.http.wire -  << "[\r][\n]"
-12:28:10.794 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7e442a9c
-12:28:10.794 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive for 60000 MILLISECONDS
-12:28:11.003 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: invokeEmployee
-12:28:11.031 [Test worker] DEBUG net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: starter
-12:28:11.276 [Test worker] INFO  - 
+22:53:56.054 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles [functional]
+22:53:56.058 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+2020-07-08 22:53:56.531  INFO 42592 --- [    Test worker] u.g.h.f.h.f.e.EmployeeServiceTest        : Starting EmployeeServiceTest on Pettedsons-MBP.broadband with PID 42592 (started by johnp in /Users/johnp/Reform/hmi-integration-model)
+2020-07-08 22:53:56.532  INFO 42592 --- [    Test worker] u.g.h.f.h.f.e.EmployeeServiceTest        : The following profiles are active: functional
+2020-07-08 22:53:58.824  INFO 42592 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-08 22:53:59.078  INFO 42592 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 22:53:59.440  WARN 42592 --- [    Test worker] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-08 22:53:59.500  INFO 42592 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-08 22:53:59.508  INFO 42592 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-08 22:53:59.548  INFO 42592 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-08 22:53:59.615  INFO 42592 --- [    Test worker] u.g.h.f.h.f.e.EmployeeServiceTest        : Started EmployeeServiceTest in 3.54 seconds (JVM running for 7.131)
+File Found : true
+The value of the base path http://localhost:4550
+2020-07-08 22:54:02.780  INFO 42592 --- [    Test worker]                                          : 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -88,30 +62,8 @@ The target instance of the Functional Test : null
  (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
         /_/                                                                
 
-Test successfull post
+Test successfull get
 ----------------------------------------------------------------------------
-12:28:11.286 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-12:28:11.440 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-12:28:11.456 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@5a732b0f
-12:28:11.458 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Employee service test:testSuccessfullPost
-12:28:11.458 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5a732b0f: Generating report for test outcome: Employee service test:testSuccessfullPost
-12:28:11.472 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test successfull post to file /Users/johnp/Reform/hmi-integration-model/target/site/serenity/6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac.json (using temp file /Users/johnp/Reform/hmi-integration-model/target/site/serenity/6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac.jsonf97413a8-8c07-4f42-9b4b-6c9697265e6b)
-12:28:11.519 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Employee service test:testSuccessfullPost done
-12:28:11.519 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-12:28:11.519 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 62 ms
-12:28:11.519 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58e9b52
-12:28:11.520 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Employee service test:testSuccessfullPost
-12:28:11.520 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58e9b52: Generating report for test outcome: Employee service test:testSuccessfullPost
-12:28:11.520 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR testSuccessfullPost in 6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac
-12:28:11.530 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: starter
-12:28:11.756 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Math', type='feature' parent = 'null', cardNumber='null'}]
-12:28:11.936 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Employee service test:testSuccessfullPost in 6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac.html in directory /Users/johnp/Reform/hmi-integration-model/target/site/serenity  
-12:28:11.940 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac.html
-12:28:12.514 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac.html in 574 ms
-12:28:12.514 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Employee service test:testSuccessfullPost done
-12:28:12.514 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-12:28:12.514 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 995 ms
-12:28:12.892 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating report for configuration
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
