@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="uk.gov.hmcts.futurehearings.hmi.functional.employee.EmployeeServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-08T11:28:06" hostname="Pettedsons-MBP.broadband" time="4.517">
+  <properties/>
+  <testcase name="testSuccessfullPost" classname="uk.gov.hmcts.futurehearings.hmi.functional.employee.EmployeeServiceTest" time="4.517"/>
+  <system-out><![CDATA[12:28:06.465 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+12:28:06.490 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for class uk.gov.hmcts.futurehearings.hmi.functional.employee.EmployeeServiceTest
+12:28:06.516 [Test worker] INFO  - Test Suite Started: Employee service test
+12:28:06.891 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+testSuccessfullPost
+-------------------------------------------------------------------
+The target instance of the Functional Test : null
+12:28:07.476 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: EmployeeServiceTest.testSuccessfullPost - invokeEmployee
+12:28:10.656 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://localhost:4550
+12:28:10.671 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to localhost:4550
+12:28:10.709 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+12:28:10.710 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+12:28:10.711 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+12:28:10.711 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+12:28:10.712 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+12:28:10.712 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /employees HTTP/1.1
+12:28:10.712 [Test worker] DEBUG org.apache.http.wire -  >> "GET /employees HTTP/1.1[\r][\n]"
+12:28:10.714 [Test worker] DEBUG org.apache.http.wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+12:28:10.714 [Test worker] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+12:28:10.714 [Test worker] DEBUG org.apache.http.wire -  >> "Host: localhost:4550[\r][\n]"
+12:28:10.714 [Test worker] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+12:28:10.715 [Test worker] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.6)[\r][\n]"
+12:28:10.715 [Test worker] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+12:28:10.715 [Test worker] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> GET /employees HTTP/1.1
+12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> Content-Type: application/json; charset=UTF-8
+12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> Accept: */*
+12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> Host: localhost:4550
+12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.6)
+12:28:10.715 [Test worker] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+12:28:10.718 [Test worker] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 [\r][\n]"
+12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "Content-Type: application/json[\r][\n]"
+12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "Date: Wed, 08 Jul 2020 11:28:10 GMT[\r][\n]"
+12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "Keep-Alive: timeout=60[\r][\n]"
+12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+12:28:10.720 [Test worker] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:28:10.721 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 
+12:28:10.721 [Test worker] DEBUG org.apache.http.headers - << HTTP/1.1 200 
+12:28:10.722 [Test worker] DEBUG org.apache.http.headers - << Content-Type: application/json
+12:28:10.722 [Test worker] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+12:28:10.722 [Test worker] DEBUG org.apache.http.headers - << Date: Wed, 08 Jul 2020 11:28:10 GMT
+12:28:10.722 [Test worker] DEBUG org.apache.http.headers - << Keep-Alive: timeout=60
+12:28:10.722 [Test worker] DEBUG org.apache.http.headers - << Connection: keep-alive
+12:28:10.729 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive for 60000 MILLISECONDS
+12:28:10.748 [Test worker] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json
+12:28:10.749 [Test worker] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+12:28:10.792 [Test worker] DEBUG org.apache.http.wire -  << "f0[\r][\n]"
+12:28:10.792 [Test worker] DEBUG org.apache.http.wire -  << "[{"id":1,"firstName":"Lokesh","lastName":"Gupta","email":"howtodoinjava@gmail.com"},{"id":2,"firstName":"Alex","lastName":"Kolenchiskey","email":"abc@gmail.com"},{"id":3,"firstName":"David","lastName":"Kameron","email":"titanic@gmail.com"}]"
+12:28:10.793 [Test worker] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:28:10.793 [Test worker] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+12:28:10.793 [Test worker] DEBUG org.apache.http.wire -  << "[\r][\n]"
+12:28:10.794 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7e442a9c
+12:28:10.794 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive for 60000 MILLISECONDS
+12:28:11.003 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: invokeEmployee
+12:28:11.031 [Test worker] DEBUG net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: starter
+12:28:11.276 [Test worker] INFO  - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Test successfull post
+----------------------------------------------------------------------------
+12:28:11.286 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+12:28:11.440 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+12:28:11.456 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@5a732b0f
+12:28:11.458 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Employee service test:testSuccessfullPost
+12:28:11.458 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5a732b0f: Generating report for test outcome: Employee service test:testSuccessfullPost
+12:28:11.472 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test successfull post to file /Users/johnp/Reform/hmi-integration-model/target/site/serenity/6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac.json (using temp file /Users/johnp/Reform/hmi-integration-model/target/site/serenity/6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac.jsonf97413a8-8c07-4f42-9b4b-6c9697265e6b)
+12:28:11.519 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Employee service test:testSuccessfullPost done
+12:28:11.519 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+12:28:11.519 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 62 ms
+12:28:11.519 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58e9b52
+12:28:11.520 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Employee service test:testSuccessfullPost
+12:28:11.520 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@58e9b52: Generating report for test outcome: Employee service test:testSuccessfullPost
+12:28:11.520 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR testSuccessfullPost in 6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac
+12:28:11.530 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: starter
+12:28:11.756 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Math', type='feature' parent = 'null', cardNumber='null'}]
+12:28:11.936 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Employee service test:testSuccessfullPost in 6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac.html in directory /Users/johnp/Reform/hmi-integration-model/target/site/serenity  
+12:28:11.940 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac.html
+12:28:12.514 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 6b0e07d7dfaa5a72a25e54189606ed5e2da8bb9dbb959273e42aede761b35fac.html in 574 ms
+12:28:12.514 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Employee service test:testSuccessfullPost done
+12:28:12.514 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+12:28:12.514 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 995 ms
+12:28:12.892 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating report for configuration
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
