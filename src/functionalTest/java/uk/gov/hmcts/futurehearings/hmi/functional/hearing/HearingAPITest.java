@@ -13,9 +13,11 @@ import java.util.Map;
 import net.serenitybdd.junit.spring.integration.SpringIntegrationSerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Narrative;
+import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Steps;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Value;
@@ -23,12 +25,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
 @RunWith(SpringIntegrationSerenityRunner.class)
-@Narrative(text={"In order to test that the Employee Service is working properly",
+@Narrative(text={"In order to test that the Hearing Service is working properly",
         "As a tester",
         "I want to be able to execute the tests for various endpoints"})
 @SpringBootTest(classes = {Application.class})
 @ActiveProfiles("functional")
-public class EmployeeServiceTest {
+public class HearingAPITest {
 
     @Steps
     HearingSteps hearingSteps;
@@ -36,15 +38,21 @@ public class EmployeeServiceTest {
     @Value("${targetInstance}")
     private String targetInstance;
 
+    @Value("${targetHost}")
+    private String targetHost;
+
+    @Value("${targetSubscriptionKey}")
+    private String targetSubscriptionKey;
+
     private static final String EMPLOYEE_API = "employees";
     private static final String SESSION_API = "future-hearings-api/session/1?time=morning";
-    private static final String HEARINGS_API = "future-hearings-api/hearings";
+    private static final String HEARINGS_API = "hmi-apim-api/hearings";
     Map<String, Object> headersAsMap = new HashMap<>();
 
     @Before
     public void initialiseValues() {
-        headersAsMap.put("Host", "fh-hmi-apim-svc.azure-api.net");
-        headersAsMap.put("Ocp-Apim-Subscription-Key", "2092a4fe20234db59a30deda06e37b72");
+        headersAsMap.put("Host", targetHost);
+        headersAsMap.put("Ocp-Apim-Subscription-Key", targetSubscriptionKey);
         headersAsMap.put("Ocp-Apim-Trace", "true");
 
         //SerenityRest = targetInstance;
@@ -52,17 +60,17 @@ public class EmployeeServiceTest {
     }
 
 
-    /*@Test
+    @Test
     @Ignore
     public void testSuccessfullGet() throws IOException {
         String input =
                 readFileContents("uk/gov/hmcts/futurehearings/hmi/functional/input/poc-input.json");
-        *//*System.out.println("The value of the Input File : "+ input);
-        System.out.println("The target instance of the Functional Test : " + targetInstance);*//*
-        cftOrCrime.invokeEmployee(targetInstance,
+        System.out.println("The value of the Input File : "+ input);
+        System.out.println("The target instance of the Functional Test : " + targetInstance);
+        hearingSteps.invokeEmployee(targetInstance,
                 SESSION_API,
                 headersAsMap);
-    }*/
+    }
 
     @Test
     public void testSuccessfullPostToHearing() throws IOException {
@@ -73,5 +81,11 @@ public class EmployeeServiceTest {
                                     HEARINGS_API,
                                     headersAsMap,
                                     input);
+    }
+
+    @Pending
+    @Test
+    public void testPendingPostToHearing() throws IOException {
+
     }
 }
