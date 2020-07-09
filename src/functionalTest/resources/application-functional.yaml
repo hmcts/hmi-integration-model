@@ -1,2 +1,2 @@
-targetInstance: ${TEST_URL:http://localhost:4550}
+targetInstance: ${TEST_URL:https://fh-hmi-apim-svc.azure-api.net}
 spring.flyway.enabled: false
