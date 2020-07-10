@@ -2,7 +2,7 @@ package uk.gov.hmcts.futurehearings.hmi.functional.hearing;
 
 import uk.gov.hmcts.futurehearings.hmi.functional.hearing.steps.HearingSteps;
 import uk.gov.hmcts.futurehearings.hmi.functional.Application;
-import static uk.gov.hmcts.futurehearings.hmi.functional.common.FileReader.readFileContents;
+import static uk.gov.hmcts.futurehearings.hmi.functional.common.TestingUtils.readFileContents;
 
 
 
@@ -23,7 +23,9 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @RunWith(SpringIntegrationSerenityRunner.class)
 @Narrative(text={"In order to test that the Hearing Service is working properly",
         "As a tester",

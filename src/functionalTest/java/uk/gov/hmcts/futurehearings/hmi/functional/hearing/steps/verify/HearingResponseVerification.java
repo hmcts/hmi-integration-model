@@ -1,7 +1,7 @@
 package uk.gov.hmcts.futurehearings.hmi.functional.hearing.steps.verify;
 
 import static org.junit.Assert.assertEquals;
-import static uk.gov.hmcts.futurehearings.hmi.functional.common.FileReader.readFileContents;
+import static uk.gov.hmcts.futurehearings.hmi.functional.common.TestingUtils.comparePayloads;
 
 import java.io.IOException;
 import java.util.Map;
@@ -51,17 +51,11 @@ public class HearingResponseVerification {
         assertEquals("London",responseMap.get(("Place")));
 
         //Option 2 - Use a Json Equality based library like JsonAssert
-        try {
-            String output =
-                    readFileContents("uk/gov/hmcts/futurehearings/hmi/functional/output/mock-demo-response.json");
-            JSONAssert.assertEquals(output,
-                    response.getBody().asString(), JSONCompareMode.STRICT);
-        } catch (JSONException jsonException) {
-            throw new AssertionError("Payloads have not matched");
-        } catch (IOException ioException ) {
-            throw new AssertionError("Response file cannot be read..");
-        }
+        comparePayloads("uk/gov/hmcts/futurehearings/hmi/functional/output/mock-demo-response.json",
+                            response);
+
         //Option 3 - Use a better Third Party Specialised Matcher (Hamcrest)
 
     }
+
 }
