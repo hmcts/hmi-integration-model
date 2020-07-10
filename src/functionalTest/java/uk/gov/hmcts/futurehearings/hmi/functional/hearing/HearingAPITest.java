@@ -66,7 +66,7 @@ public class HearingAPITest {
     @Ignore
     public void testSuccessfullGet() throws IOException {
         String input =
-                readFileContents("uk/gov/hmcts/futurehearings/hmi/functional/input/poc-input.json");
+                readFileContents("uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/poc-input.json");
         System.out.println("The value of the Input File : "+ input);
         System.out.println("The target instance of the Functional Test : " + targetInstance);
         hearingSteps.invokeEmployee(targetInstance,
@@ -78,7 +78,7 @@ public class HearingAPITest {
     public void testSuccessfullPostToHearing() throws IOException {
 
         String input =
-                readFileContents("uk/gov/hmcts/futurehearings/hmi/functional/input/mock-demo-request.json");
+                readFileContents("uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/mock-demo-request.json");
         hearingSteps.requestHearing(targetInstance,
                                     HEARINGS_API,
                                     headersAsMap,

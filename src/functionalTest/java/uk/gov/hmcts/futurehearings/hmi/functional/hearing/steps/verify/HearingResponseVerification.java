@@ -51,7 +51,7 @@ public class HearingResponseVerification {
         assertEquals("London",responseMap.get(("Place")));
 
         //Option 2 - Use a Json Equality based library like JsonAssert
-        comparePayloads("uk/gov/hmcts/futurehearings/hmi/functional/output/mock-demo-response.json",
+        comparePayloads("uk/gov/hmcts/futurehearings/hmi/functional/hearing/output/mock-demo-response.json",
                             response);
 
         //Option 3 - Use a better Third Party Specialised Matcher (Hamcrest)

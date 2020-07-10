@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest" tests="3" skipped="2" failures="0" errors="0" timestamp="2020-07-10T08:58:38" hostname="Pettedsons-MBP.broadband" time="8.727">
+<testsuite name="uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest" tests="3" skipped="2" failures="0" errors="0" timestamp="2020-07-10T10:33:36" hostname="Pettedsons-MBP.broadband" time="8.552">
   <properties/>
   <testcase name="testPendingPostToHearing" classname="uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testSuccessfullPostToHearing" classname="uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest" time="8.585"/>
+  <testcase name="testSuccessfullPostToHearing" classname="uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest" time="8.324"/>
   <testcase name="testSuccessfullGet" classname="uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest" time="0.0">
     <skipped/>
   </testcase>
-  <system-out><![CDATA[09:58:37.947 [Test worker] INFO  - 
+  <system-out><![CDATA[11:33:35.362 [Test worker] INFO  - 
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -24,12 +24,12 @@
  Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
 -------------------------------------------------------------------------------------
 
-09:58:37.960 [Test worker] DEBUG net.serenitybdd.junit.spring.integration.SpringIntegrationClassRule - Applying class rule to class uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest
-09:58:37.968 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6c349e65 testClass = HearingAPITest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@478184ab testClass = HearingAPITest, locations = '{}', classes = '{class uk.gov.hmcts.futurehearings.hmi.functional.Application, class uk.gov.hmcts.futurehearings.hmi.functional.Application}', contextInitializerClasses = '[]', activeProfiles = '{functional}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@116fdc4d, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@33b09d4f, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@458dfbae, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@18c94a34, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
-09:58:37.984 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for class uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest
-09:58:38.008 [Test worker] INFO  - Test Suite Started: Hearing API test
-09:58:38.500 [Test worker] DEBUG net.thucydides.core.model.featuretags.StoryFileStrategy - Story name for hearing => story:Hearing/Hearing API test
-09:58:38.506 [Test worker] INFO  - 
+11:33:35.378 [Test worker] DEBUG net.serenitybdd.junit.spring.integration.SpringIntegrationClassRule - Applying class rule to class uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest
+11:33:35.384 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@73a7365c testClass = HearingAPITest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1cf95477 testClass = HearingAPITest, locations = '{}', classes = '{class uk.gov.hmcts.futurehearings.hmi.functional.Application, class uk.gov.hmcts.futurehearings.hmi.functional.Application}', contextInitializerClasses = '[]', activeProfiles = '{functional}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@60267a12, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7bd452d4, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5e09b6da, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@592f29f2, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+11:33:35.400 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for class uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest
+11:33:35.424 [Test worker] INFO  - Test Suite Started: Hearing API test
+11:33:35.838 [Test worker] DEBUG net.thucydides.core.model.featuretags.StoryFileStrategy - Story name for hearing => story:Hearing/Hearing API test
+11:33:35.841 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -38,8 +38,8 @@
 
 testPendingPostToHearing
 -------------------------------------------------------------------
-09:58:38.535 [Test worker] DEBUG net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: uk.gov.hmcts.futurehearings.hmi.functional
-09:58:38.875 [Test worker] INFO  - 
+11:33:35.889 [Test worker] DEBUG net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: uk.gov.hmcts.futurehearings.hmi.functional
+11:33:36.158 [Test worker] INFO  - 
           __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
  _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
 (_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
@@ -48,8 +48,8 @@ testPendingPostToHearing
 
 Test pending post to hearing
 -------------------------------------------------------------------------------
-09:58:39.022 [Test worker] DEBUG net.thucydides.core.model.featuretags.StoryFileStrategy - Story name for hearing => story:Hearing/Hearing API test
-09:58:39.022 [Test worker] INFO  - 
+11:33:36.331 [Test worker] DEBUG net.thucydides.core.model.featuretags.StoryFileStrategy - Story name for hearing => story:Hearing/Hearing API test
+11:33:36.332 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -58,8 +58,8 @@ Test pending post to hearing
 
 testSuccessfullPostToHearing
 -------------------------------------------------------------------
-09:58:39.076 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles [functional]
-09:58:39.084 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+11:33:36.360 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles [functional]
+11:33:36.363 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -69,15 +69,15 @@ testSuccessfullPostToHearing
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.3.1.RELEASE)
 
-2020-07-10 09:58:39.651  INFO 80657 --- [    Test worker] u.g.h.f.h.f.hearing.HearingAPITest       : Starting HearingAPITest on Pettedsons-MBP.broadband with PID 80657 (started by johnp in /Users/johnp/Reform/hmi-integration-model)
-2020-07-10 09:58:39.653  INFO 80657 --- [    Test worker] u.g.h.f.h.f.hearing.HearingAPITest       : The following profiles are active: functional
-2020-07-10 09:58:42.148  INFO 80657 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-07-10 09:58:42.545  INFO 80657 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-07-10 09:58:42.980  WARN 80657 --- [    Test worker] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-2020-07-10 09:58:43.038  INFO 80657 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-07-10 09:58:43.048  INFO 80657 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-07-10 09:58:43.107  INFO 80657 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-07-10 09:58:43.217  INFO 80657 --- [    Test worker] u.g.h.f.h.f.hearing.HearingAPITest       : Started HearingAPITest in 4.095 seconds (JVM running for 8.699)
+2020-07-10 11:33:36.896  INFO 81426 --- [    Test worker] u.g.h.f.h.f.hearing.HearingAPITest       : Starting HearingAPITest on Pettedsons-MBP.broadband with PID 81426 (started by johnp in /Users/johnp/Reform/hmi-integration-model)
+2020-07-10 11:33:36.897  INFO 81426 --- [    Test worker] u.g.h.f.h.f.hearing.HearingAPITest       : The following profiles are active: functional
+2020-07-10 11:33:39.245  INFO 81426 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-10 11:33:39.608  INFO 81426 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-10 11:33:40.080  WARN 81426 --- [    Test worker] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-10 11:33:40.171  INFO 81426 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-10 11:33:40.182  INFO 81426 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-10 11:33:40.252  INFO 81426 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-10 11:33:40.358  INFO 81426 --- [    Test worker] u.g.h.f.h.f.hearing.HearingAPITest       : Started HearingAPITest in 3.982 seconds (JVM running for 7.899)
 File Found : true
 The value of the base path https://hmi-apim-svc-sbox.azure-api.net
 {
@@ -85,7 +85,7 @@ The value of the base path https://hmi-apim-svc-sbox.azure-api.net
   "Place": "London"
 }
 File Found : true
-2020-07-10 09:58:47.470  INFO 80657 --- [    Test worker]                                          : 
+2020-07-10 11:33:44.491  INFO 81426 --- [    Test worker]                                          : 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -95,7 +95,7 @@ File Found : true
 
 Test successfull post to hearing
 ----------------------------------------------------------------------------
-2020-07-10 09:58:47.606  INFO 80657 --- [    Test worker]                                          : 
+2020-07-10 11:33:44.709  INFO 81426 --- [    Test worker]                                          : 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -104,8 +104,8 @@ Test successfull post to hearing
 
 testSuccessfullGet
 -------------------------------------------------------------------
-2020-07-10 09:58:47.606  INFO 80657 --- [    Test worker]                                          :       -> TEST IGNORED
-2020-07-10 09:58:47.608  INFO 80657 --- [    Test worker]                                          : 
+2020-07-10 11:33:44.711  INFO 81426 --- [    Test worker]                                          :       -> TEST IGNORED
+2020-07-10 11:33:44.713  INFO 81426 --- [    Test worker]                                          : 
             __  _____ _____ ____ _____   ____  _  _____ ____  ____  _____ ____  
   _        / / |_   _| ____/ ___|_   _| / ___|| |/ /_ _|  _ \|  _ \| ____|  _ \ 
  (_)_____ / /    | | |  _| \___ \ | |   \___ \| ' / | || |_) | |_) |  _| | | | |
