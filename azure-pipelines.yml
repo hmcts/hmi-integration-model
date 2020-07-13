@@ -20,13 +20,13 @@ steps:
 - task: Gradle@2
   inputs:
     gradleWrapperFile: 'gradlew'
-    tasks: 'build'
+    tasks: 'clean functional'
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
     sonarQubeRunAnalysis: true
-    sqGradlePluginVersionChoice: 'build'
+    sqGradlePluginVersionChoice: 'clean functional'
     checkStyleRunAnalysis: true
     findBugsRunAnalysis: true
     pmdRunAnalysis: true
