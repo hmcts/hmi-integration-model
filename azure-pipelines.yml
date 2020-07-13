@@ -26,7 +26,8 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
     sonarQubeRunAnalysis: true
-    sqGradlePluginVersionChoice: 'clean functional'
+    sqGradlePluginVersionChoice: 'specify'
+    sonarQubeGradlePluginVersion: '3.0'
     checkStyleRunAnalysis: true
     findBugsRunAnalysis: true
     pmdRunAnalysis: true
