@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+import io.restassured.RestAssured;
 import net.serenitybdd.junit.spring.integration.SpringIntegrationSerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Narrative;
@@ -56,8 +57,9 @@ public class HearingAPITest {
         headersAsMap.put("Host", targetHost);
         headersAsMap.put("Ocp-Apim-Subscription-Key", targetSubscriptionKey);
         headersAsMap.put("Ocp-Apim-Trace", "true");
+        headersAsMap.put("Company-Name", "HMCTS");
 
-        //SerenityRest = targetInstance;
+        RestAssured.baseURI = targetInstance;
         SerenityRest.useRelaxedHTTPSValidation();
     }
 
@@ -79,8 +81,7 @@ public class HearingAPITest {
 
         String input =
                 readFileContents("uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/mock-demo-request.json");
-        hearingSteps.requestHearing(targetInstance,
-                                    HEARINGS_API,
+        hearingSteps.requestHearing(HEARINGS_API,
                                     headersAsMap,
                                     input);
     }
