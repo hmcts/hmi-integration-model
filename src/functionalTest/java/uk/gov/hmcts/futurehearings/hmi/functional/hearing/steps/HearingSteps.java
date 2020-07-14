@@ -31,16 +31,15 @@ public class HearingSteps {
     }
 
     @Step("#actor routes to {0} in order to get invoke {1}")
-    public void requestHearing (final String basePath,
-                                final String api,
+    public void requestHearing (final String api,
                                 final Map<String,Object> headersAsMap,
                                 final String payloadBody) {
 
-        System.out.println("The value of the base path " + basePath);
+        //System.out.println("The value of the base path " + basePath);
         Response response = expect().that().statusCode(200)
                 .given().contentType("application/json").body(payloadBody)
                 .headers(headersAsMap)
-                .baseUri(basePath)
+                //.baseUri(basePath)
                 .basePath(api)
                 .when().post().then().extract().response();
         verifyHearingResponse(lastResponse());

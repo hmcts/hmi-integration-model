@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Hearing API test","Test pending post to hearing","PENDING","2020-07-10T11:33:35.452312+01:00[Europe/London]","0.0","0.41"
-"Hearing API test","Test successfull post to hearing","SUCCESS","2020-07-10T11:33:36.166277+01:00[Europe/London]","0.0","8.32"
-"Hearing API test","Test successfull get","IGNORED","2020-07-10T11:33:44.492552+01:00[Europe/London]","0.0","0.22"
+"Hearing API test","Test pending post to hearing","PENDING","2020-07-14T10:58:47.021597+01:00[Europe/London]","0.0","0.38"
+"Hearing API test","Test successfull post to hearing","SUCCESS","2020-07-14T10:58:47.800913+01:00[Europe/London]","0.0","9.47"
+"Hearing API test","Test successfull get","IGNORED","2020-07-14T10:58:57.274116+01:00[Europe/London]","0.0","0.22"
