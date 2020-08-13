@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="uk.gov.hmcts.futurehearings.hmi.hearing.HearingAPITest" skipped="2" tests="3" time="11.6" timestamp="2020-07-30 03:42:28"><testcase classname="uk.gov.hmcts.futurehearings.hmi.hearing.HearingAPITest" name="Test pending post to hearing"><skipped/></testcase><testcase classname="uk.gov.hmcts.futurehearings.hmi.hearing.HearingAPITest" name="Test successfull post to hearing"><skipped/></testcase><testcase classname="uk.gov.hmcts.futurehearings.hmi.hearing.HearingAPITest" name="Test successfull get"><error message="class path resource [uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/poc-input.json] cannot be resolved to absolute file path because it does not exist" type="java.io.FileNotFoundException">class path resource [uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/poc-input.json] cannot be resolved to absolute file path because it does not exist</error><system-err>class path resource [uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/poc-input.json] cannot be resolved to absolute file path because it does not exist
+org.springframework.util.ResourceUtils.getFile(ResourceUtils.java:177)
+uk.gov.hmcts.futurehearings.hmi.common.TestingUtils.readFileContents(TestingUtils.java:19)
+uk.gov.hmcts.futurehearings.hmi.hearing.HearingAPITest.testSuccessfullGet(HearingAPITest.java:77)
+org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+</system-err></testcase></testsuite>

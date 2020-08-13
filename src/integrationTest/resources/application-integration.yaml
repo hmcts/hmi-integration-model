@@ -1,0 +1,12 @@
+employeeBaseURI: ${EMPLOYEE_BASE_URI:http://localhost:4550}
+employeeAPIPath: ${EMPLOYEE_API_PATH:/employee}
+
+timeAPIPath: ${TIME_API_PATH:/api/json/cet/now}
+hmctsAPIPath: ${HMCTS_API_PATH:/HMCTSTEST}
+
+targetInstance: ${TEST_URL:https://hmi-apim-svc-sbox.azure-api.net/hmi/hearings}
+targetHost: ${TEST_HOST:hmi-apim-svc-sbox.azure-api.net}
+targetSubscriptionKey: ${TEST_SUBSCRIPTION_KEY:c602c8ed3b8147be910449b563dce008}
+
+spring.flyway.enabled: false
+serenity.outputDirectory: ${SERENITY_OUTPUT_DIRECTORY:target/site/integration/reports}

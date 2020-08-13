@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Hearing","type":"feature","href":"945c2a58104fd02cbcc405d8f1556cee8cc847d38d289aaf7a567034e02aae5a.html","nodes":[{"text":"Hearing API test","type":"story","href":"eb7413e68c29fce1819619e38319d8f3ca28e7fd9756515d1c60d0df320f6281.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e3 scenarios\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027far fa-stop-circle pending-icon \u0027 title\u003d\u0027PENDING\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 story\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Demo unit test","type":"story","href":"e0177242b3ad078b9d0a0ae4412dd6dacfd591e4203cb5484fdfe3ab2aa3dc29.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027far fa-stop-circle pending-icon \u0027 title\u003d\u0027PENDING\u0027\u003e\u003c/i\u003e\u003c/a\u003e",""]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -212,13 +212,10 @@
             <a href="#"><i class="fa fa-book"></i> Requirements</a>
         </li>
         <li >
-            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
-        </li>
-        <li >
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-07-2020 10:58</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-07-2020 12:05</span>
     <br style="clear:left"/>
 </div>
 
@@ -269,10 +266,10 @@
                                             </div>
                                             <script>
 
-                                                var labels = ['33%', ' ', '33%', ' ', '33%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
+                                                var labels = ['75%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '25%', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 1}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 1}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 3}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -313,24 +310,22 @@
                                                                         <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">33%</td>
+                                                <td class="automated-stats">3</td>
+                                                <td class="automated-stats">75%</td>
                                             </tr>
                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html"><i
-                                                                                class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending
                                                                     </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">33%</td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="c1b352893c3d69e59317fd825f20a75f987a859afe98fb4434f47dce70c48fd4.html"><i
-                                                                                class='fa fa-ban ignored-icon'></i>&nbsp;Ignored</a>
-                                                                    </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">33%</td>
+                                                                <td class="aggregate-result-count"><i
+                                                                        class='fa fa-ban ignored-icon'></i>&nbsp;Ignored
+                                                                </td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
                                                                 <td class="aggregate-result-count"><i
@@ -340,8 +335,8 @@
                                                 <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
-                                                                            <td colspan="3"><i
-                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                             <td colspan="3"><a href="b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html"><i
+                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                             </td>
 
                                             </tr>
@@ -354,12 +349,12 @@
                                                 <td class="automated-stats">0</td>
                                                 <td class="automated-stats"> </td>
                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
-                                                                </td>
-                                                <td class="automated-stats">0</td>
-                                                <td class="automated-stats"> </td>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html"><i
+                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
+                                                                    </td>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">25%</td>
                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -370,7 +365,7 @@
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">3</td>
+                                                <td class="automated-stats">4</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -392,11 +387,11 @@
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>10s</td>
-                                                        <td>10s</td>
-                                                        <td>215ms</td>
-                                                        <td>9s</td>
-                                                        <td>3s</td>
+                                                        <td>25s</td>
+                                                        <td>8d  2h  29m 49s</td>
+                                                        <td>0ms</td>
+                                                        <td>16s</td>
+                                                        <td>6s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -410,12 +405,12 @@
 
 
 
-<h4 class="requireent-type-heading">Features</h4>
+<h4 class="requireent-type-heading">Stories</h4>
 
 <table class="scenario-result table" id="req-results-table">
     <thead>
         <tr>
-            <th class="requirement-name-column" width="60%">Feature</th>
+            <th class="requirement-name-column" width="60%">Story</th>
             <th>ID</th>
             <th>Automated Tests</th>
                 <th>Manual Tests</th>
@@ -430,12 +425,12 @@
 
 
             <td> 
-                <a href="945c2a58104fd02cbcc405d8f1556cee8cc847d38d289aaf7a567034e02aae5a.html">Hearing</a></span>
+                <a href="e0177242b3ad078b9d0a0ae4412dd6dacfd591e4203cb5484fdfe3ab2aa3dc29.html">Demo unit test</a></span>
             </td>
             <td> 
                 
             </td>
-            <td>3</td>
+            <td>0</td>
             <td>0</td>
             <td>
                 <span class="status_icon"><a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a></span>
@@ -448,100 +443,100 @@
 <table>
     <tr>
         <td width="40px" style="padding-top:4px;">
-            <div class="small" style="text-align:right;">33.3%</div>
+            <div class="small" style="text-align:right;">0%</div>
         </td>
         <td style="min-width:12.5em;">
             <div class="progress">
                 <div class="progress-bar" role="progressbar"
-                     style="width: 33.333333%; background-color:#30cb23;"
-                     aria-valuenow="1"
+                     style="width: 0%; background-color:#30cb23;"
+                     aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="3"
-                     title="  - Total tests: 3
-  - Passing tests: 1 (33.3%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (33.3%)
-  - Ignored or skipped tests: 1 (33.3%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
-                     style="width: 33.333333%; background-color:#A2C4EC;"
-                     aria-valuenow="1"
+                     style="width: 0%; background-color:#A2C4EC;"
+                     aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="3"
-                     title="  - Total tests: 3
-  - Passing tests: 1 (33.3%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (33.3%)
-  - Ignored or skipped tests: 1 (33.3%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
-                     style="width: 33.333333%; background-color:darkgrey;"
-                     aria-valuenow="1"
+                     style="width: 0%; background-color:darkgrey;"
+                     aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="3"
-                     title="  - Total tests: 3
-  - Passing tests: 1 (33.3%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (33.3%)
-  - Ignored or skipped tests: 1 (33.3%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
                      style="width: 0%; background-color:#EEE098;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="3"
-                     title="  - Total tests: 3
-  - Passing tests: 1 (33.3%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (33.3%)
-  - Ignored or skipped tests: 1 (33.3%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
                      style="width: 0%; background-color:#f8001f;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="3"
-                     title="  - Total tests: 3
-  - Passing tests: 1 (33.3%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (33.3%)
-  - Ignored or skipped tests: 1 (33.3%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
                      style="width: 0%; background-color:darkorange;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="3"
-                     title="  - Total tests: 3
-  - Passing tests: 1 (33.3%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (33.3%)
-  - Ignored or skipped tests: 1 (33.3%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                 </div>
                 <div class="progress-bar" role="progressbar"
                      style="width: 0%; background-color:fuchsia;"
                      aria-valuenow="0"
                      aria-valuemin="0"
-                     aria-valuemax="3"
-                     title="  - Total tests: 3
-  - Passing tests: 1 (33.3%)
+                     aria-valuemax="0"
+                     title="  - Total tests: 0
+  - Passing tests: 0 (0%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (33.3%)
-  - Ignored or skipped tests: 1 (33.3%)">
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
                 </div>
             </div>
         </td>
@@ -574,49 +569,64 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr class="scenario-result PENDING">
-                                                    <td>
-                                                            <a href="eb7413e68c29fce1819619e38319d8f3ca28e7fd9756515d1c60d0df320f6281.html">Hearing API test</a>
-                                                    </td>
-                                                    <td>
-                                                            <a href="caa4d315508204b27fb76f7c3ed1caab88f3b73187a3f4dd97d16a45a1c0d778.html">Test pending post to hearing</a>
-                                                    </td>
-                                                    <td>0</td>
-                                                    <td>10:58:47</td>
-                                                    <td>384ms</td>
-                                                    <td>
-                                                            <a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a> <span
-                                                                style="display:none">PENDING</span>
-                                                    </td>
-                                                </tr>
                                                 <tr class="scenario-result SUCCESS">
                                                     <td>
-                                                            <a href="eb7413e68c29fce1819619e38319d8f3ca28e7fd9756515d1c60d0df320f6281.html">Hearing API test</a>
+                                                            <a href="b3d53c40062f87bfb7eed2d4fcb7e8345a193c3b398e2aec3e0e5b939fec779c.html">Hearing API wiremock test</a>
                                                     </td>
                                                     <td>
-                                                            <a href="44b1d1c811c4ce46a7877265de7fefe8b5b0f48804f1d53fc90f2d8c8e165e65.html">Test successfull post to hearing</a>
+                                                            <a href="0b89369026b7a9c56706e1f0a76ef0c6b3f99f2afe9d602fb7c749e99dbd713a.html">Should get time on employee from mock</a>
                                                     </td>
                                                     <td>1</td>
-                                                    <td>10:58:47</td>
-                                                    <td>9s 470ms</td>
+                                                    <td>12:05:27</td>
+                                                    <td>481ms</td>
                                                     <td>
                                                             <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
                                                                 style="display:none">SUCCESS</span>
                                                     </td>
                                                 </tr>
-                                                <tr class="scenario-result IGNORED">
+                                                <tr class="scenario-result SUCCESS">
                                                     <td>
-                                                            <a href="eb7413e68c29fce1819619e38319d8f3ca28e7fd9756515d1c60d0df320f6281.html">Hearing API test</a>
+                                                            <a href="b3d53c40062f87bfb7eed2d4fcb7e8345a193c3b398e2aec3e0e5b939fec779c.html">Hearing API wiremock test</a>
                                                     </td>
                                                     <td>
-                                                            <a href="0f100afa2fee55fd29de7dac51c5300fb6f58b371f592c45bd468caf5c5504c0.html">Test successfull get</a>
+                                                            <a href="bbc78ab9f459c72a560a37b5af38f61718c49be47720e3df66e813bf2fe9f7c5.html">Should email on employee from mock</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>18:48:11</td>
+                                                    <td>16s 074ms</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result ERROR">
+                                                    <td>
+                                                            <a href="dda17b4f21e793806d63436432280ad6858c6ba04f342c722ece35fe42c7bc38.html">Hearing API wiremock standalone test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="5540f46f969b551a4b70621ece2651d2ed116e4edcb3f2c620fa6b90d9a49380.html">Initialisation</a>
                                                     </td>
                                                     <td>0</td>
-                                                    <td>10:58:57</td>
-                                                    <td>215ms</td>
+                                                    <td>11:35:48</td>
+                                                    <td> </td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a> <span
-                                                                style="display:none">IGNORED</span>
+                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
+                                                                style="display:none">ERROR</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="dda17b4f21e793806d63436432280ad6858c6ba04f342c722ece35fe42c7bc38.html">Hearing API wiremock standalone test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="10c95a0a257cdc7c7894745e3b97c68d657e880e77abc58215053f4eeb9300e3.html">Should work from standalone mock</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>14:35:17</td>
+                                                    <td>9s 434ms</td>
+                                                    <td>
+                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                style="display:none">SUCCESS</span>
                                                     </td>
                                                 </tr>
                                                 </tbody>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="HearingAPITest" skipped="2" tests="3" time="10.82" timestamp="2020-07-16 12:47:36"><testcase classname="HearingAPITest" name="Test pending post to hearing"><skipped/></testcase><testcase classname="HearingAPITest" name="Test successfull post to hearing"><skipped/></testcase><testcase classname="HearingAPITest" name="Test successfull get"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1750)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1755)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:821)
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171)
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.executeCall(RequestSpecificationDecorated.java:305)
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.execute(RequestSpecificationDecorated.java:263)
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.get(RequestSpecificationDecorated.java:62)
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.get(RequestSpecificationDecorated.java:50)
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.get(RequestSpecificationDecorated.java:38)
+HearingSteps.invokeEmployee(HearingSteps.java:29)
+HearingAPITest.testSuccessfullGet(HearingAPITest.java:77)
+org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+</system-err></testcase></testsuite>

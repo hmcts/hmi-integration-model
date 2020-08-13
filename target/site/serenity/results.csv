@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Hearing API test","Test pending post to hearing","PENDING","2020-07-14T10:58:47.021597+01:00[Europe/London]","0.0","0.38"
-"Hearing API test","Test successfull post to hearing","SUCCESS","2020-07-14T10:58:47.800913+01:00[Europe/London]","0.0","9.47"
-"Hearing API test","Test successfull get","IGNORED","2020-07-14T10:58:57.274116+01:00[Europe/London]","0.0","0.22"
+"Hearing API wiremock test","Should get time on employee from mock","SUCCESS","2020-07-22T12:05:27.784703+01:00[Europe/London]","0.0","0.48"
+"Hearing API wiremock test","Should email on employee from mock","SUCCESS","2020-07-22T18:48:11.858867+01:00[Europe/London]","0.0","16.07"
+"Hearing API wiremock standalone test","Initialisation","ERROR","2020-07-29T11:35:48.490701+01:00[Europe/London]","0.0","0.0"
+"Hearing API wiremock standalone test","Should work from standalone mock","SUCCESS","2020-07-30T14:35:17.718945+01:00[Europe/London]","0.0","9.43"

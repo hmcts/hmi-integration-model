@@ -1,4 +1,4 @@
 targetInstance: ${TEST_URL:https://hmi-apim-svc-sbox.azure-api.net}
-targetHost : ${TEST_HOST:hmi-apim-svc-sbox.azure-api.net}
-targetSubscriptionKey : ${TEST_SUBSCRIPTION_KEY:024c1b5a9dac4d2f875c642573eb310e}
+targetHost: ${TEST_HOST:hmi-apim-svc-sbox.azure-api.net}
+targetSubscriptionKey: ${TEST_SUBSCRIPTION_KEY:bcd45ea4b45d4e2e9c9e88f295825765}
 spring.flyway.enabled: false

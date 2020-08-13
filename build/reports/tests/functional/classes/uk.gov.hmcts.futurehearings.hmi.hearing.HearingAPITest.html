@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - HearingAPITest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>HearingAPITest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/uk.gov.hmcts.futurehearings.hmi.hearing.html">uk.gov.hmcts.futurehearings.hmi.hearing</a> &gt; HearingAPITest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">2</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">10.969s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testSuccessfullGet"></a>
+<h3 class="failures">testSuccessfullGet</h3>
+<span class="code">
+<pre>java.io.FileNotFoundException: class path resource [uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/poc-input.json] cannot be resolved to absolute file path because it does not exist
+	at org.springframework.util.ResourceUtils.getFile(ResourceUtils.java:177)
+	at uk.gov.hmcts.futurehearings.hmi.common.TestingUtils.readFileContents(TestingUtils.java:19)
+	at uk.gov.hmcts.futurehearings.hmi.hearing.HearingAPITest.testSuccessfullGet(HearingAPITest.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at net.serenitybdd.junit.runners.SerenityStatement.evaluate(SerenityStatement.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:464)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:438)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:45)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:242)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:82)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:73)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy5.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:413)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="skipped">testPendingPostToHearing</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="failures">testSuccessfullGet</td>
+<td class="failures">10.969s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="skipped">testSuccessfullPostToHearing</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:42:28.235 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+15:42:28.250 [Test worker] DEBUG net.serenitybdd.junit.spring.integration.SpringIntegrationClassRule - Applying class rule to class uk.gov.hmcts.futurehearings.hmi.hearing.HearingAPITest
+15:42:28.259 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3d0ab943 testClass = HearingAPITest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4c523d2 testClass = HearingAPITest, locations = '{}', classes = '{class uk.gov.hmcts.futurehearings.hmi.Application}', contextInitializerClasses = '[class uk.gov.hmcts.futurehearings.hmi.intializer.HMIApplicationContextIntializer]', activeProfiles = '{functional}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@53a87bb, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5fbb5b38, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@19216f6f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@34f5d857, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+15:42:28.277 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for class uk.gov.hmcts.futurehearings.hmi.hearing.HearingAPITest
+15:42:28.305 [Test worker] INFO  - Test Suite Started: Hearing API test
+15:42:28.758 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+testPendingPostToHearing
+-------------------------------------------------------------------
+15:42:28.784 [Test worker] DEBUG net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: uk.gov.hmcts.futurehearings.hmi.functional
+15:42:29.096 [Test worker] INFO  - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+
+Test pending post to hearing
+-------------------------------------------------------------------------------
+15:42:29.317 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+testSuccessfullPostToHearing
+-------------------------------------------------------------------
+15:42:29.319 [Test worker] INFO  - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+
+Test successfull post to hearing
+-------------------------------------------------------------------------------
+15:42:29.531 [Test worker] INFO  - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+testSuccessfullGet
+-------------------------------------------------------------------
+15:42:29.583 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles [functional]
+15:42:29.589 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.1.RELEASE)
+
+/Users/johnp/Reform/hmi-integration-model/script
+The Set Path : /Users/johnp/Reform/hmi-integration-model/script
+Received from script: [
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;62864d44-5da9-4ae9-89e7-0cf33942fa09&quot;,
+Received from script:     &quot;isDefault&quot;: false,
+Received from script:     &quot;managedByTenants&quot;: [],
+Received from script:     &quot;name&quot;: &quot;DCD-CFTAPPS-ITHC&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;96c274ce-846d-4e48-89a7-d528432298a7&quot;,
+Received from script:     &quot;isDefault&quot;: false,
+Received from script:     &quot;managedByTenants&quot;: [],
+Received from script:     &quot;name&quot;: &quot;DCD-CFTAPPS-STG&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;d025fece-ce99-4df2-b7a9-b649d3ff2060&quot;,
+Received from script:     &quot;isDefault&quot;: false,
+Received from script:     &quot;managedByTenants&quot;: [],
+Received from script:     &quot;name&quot;: &quot;DCD-CFTAPPS-DEMO&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;bf308a5c-0624-4334-8ff8-8dca9fd43783&quot;,
+Received from script:     &quot;isDefault&quot;: false,
+Received from script:     &quot;managedByTenants&quot;: [
+Received from script:       {
+Received from script:         &quot;tenantId&quot;: &quot;2f4a9838-26b7-47ee-be60-ccc1fdec5953&quot;
+Received from script:       }
+Received from script:     ],
+Received from script:     &quot;name&quot;: &quot;DCD-CFT-Sandbox&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;1c4f0704-a29e-403d-b719-b90c34ef14c9&quot;,
+Received from script:     &quot;isDefault&quot;: false,
+Received from script:     &quot;managedByTenants&quot;: [
+Received from script:       {
+Received from script:         &quot;tenantId&quot;: &quot;2f4a9838-26b7-47ee-be60-ccc1fdec5953&quot;
+Received from script:       }
+Received from script:     ],
+Received from script:     &quot;name&quot;: &quot;DCD-CNP-DEV&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;8b6ea922-0862-443e-af15-6056e1c9b9a4&quot;,
+Received from script:     &quot;isDefault&quot;: false,
+Received from script:     &quot;managedByTenants&quot;: [],
+Received from script:     &quot;name&quot;: &quot;DCD-CFTAPPS-DEV&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;8a07fdcd-6abd-48b3-ad88-ff737a4b9e3c&quot;,
+Received from script:     &quot;isDefault&quot;: false,
+Received from script:     &quot;managedByTenants&quot;: [],
+Received from script:     &quot;name&quot;: &quot;DCD-CFTAPPS-TEST&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;7a4e3bd5-ae3a-4d0c-b441-2188fee3ff1c&quot;,
+Received from script:     &quot;isDefault&quot;: false,
+Received from script:     &quot;managedByTenants&quot;: [],
+Received from script:     &quot;name&quot;: &quot;DCD-CNP-QA&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;ed302caf-ec27-4c64-a05e-85731c3ce90e&quot;,
+Received from script:     &quot;isDefault&quot;: false,
+Received from script:     &quot;managedByTenants&quot;: [],
+Received from script:     &quot;name&quot;: &quot;Reform-CFT-Mgmt&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;a952c7a6-1fa3-4c45-bc2a-29b3300c2ca6&quot;,
+Received from script:     &quot;isDefault&quot;: false,
+Received from script:     &quot;managedByTenants&quot;: [],
+Received from script:     &quot;name&quot;: &quot;DTS-HMI-SBOX&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;8999dec3-0104-4a27-94ee-6588559729d1&quot;,
+Received from script:     &quot;isDefault&quot;: false,
+Received from script:     &quot;managedByTenants&quot;: [],
+Received from script:     &quot;name&quot;: &quot;DCD-CNP-Prod&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;cloudName&quot;: &quot;AzureCloud&quot;,
+Received from script:     &quot;homeTenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;id&quot;: &quot;a8140a9e-f1b0-481f-a4de-09e2ee23f7ab&quot;,
+Received from script:     &quot;isDefault&quot;: true,
+Received from script:     &quot;managedByTenants&quot;: [],
+Received from script:     &quot;name&quot;: &quot;DTS-SHAREDSERVICES-SBOX&quot;,
+Received from script:     &quot;state&quot;: &quot;Enabled&quot;,
+Received from script:     &quot;tenantId&quot;: &quot;531ff96d-0ae9-462a-8d2d-bec7c0b42082&quot;,
+Received from script:     &quot;user&quot;: {
+Received from script:       &quot;name&quot;: &quot;Pettedson.John@HMCTS.NET&quot;,
+Received from script:       &quot;type&quot;: &quot;user&quot;
+Received from script:     }
+Received from script:   }
+Received from script: ]
+Received from script: [
+Received from script:   {
+Received from script:     &quot;attributes&quot;: {
+Received from script:       &quot;created&quot;: &quot;2020-07-15T09:17:17+00:00&quot;,
+Received from script:       &quot;enabled&quot;: true,
+Received from script:       &quot;expires&quot;: null,
+Received from script:       &quot;notBefore&quot;: null,
+Received from script:       &quot;recoveryLevel&quot;: &quot;Purgeable&quot;,
+Received from script:       &quot;updated&quot;: &quot;2020-07-15T09:17:17+00:00&quot;
+Received from script:     },
+Received from script:     &quot;contentType&quot;: &quot;&quot;,
+Received from script:     &quot;id&quot;: &quot;https://hmi-apim-kv-test.vault.azure.net/secrets/hmi-apim-svc-test&quot;,
+Received from script:     &quot;managed&quot;: null,
+Received from script:     &quot;name&quot;: &quot;hmi-apim-svc-test&quot;,
+Received from script:     &quot;tags&quot;: {
+Received from script:       &quot;createdby&quot;: &quot;HMI&quot;,
+Received from script:       &quot;purpose&quot;: &quot;PoC&quot;
+Received from script:     }
+Received from script:   },
+Received from script:   {
+Received from script:     &quot;attributes&quot;: {
+Received from script:       &quot;created&quot;: &quot;2020-07-20T14:02:51+00:00&quot;,
+Received from script:       &quot;enabled&quot;: true,
+Received from script:       &quot;expires&quot;: null,
+Received from script:       &quot;notBefore&quot;: &quot;2020-07-20T14:02:26+00:00&quot;,
+Received from script:       &quot;recoveryLevel&quot;: &quot;Purgeable&quot;,
+Received from script:       &quot;updated&quot;: &quot;2020-07-20T14:02:51+00:00&quot;
+Received from script:     },
+Received from script:     &quot;contentType&quot;: null,
+Received from script:     &quot;id&quot;: &quot;https://hmi-apim-kv-test.vault.azure.net/secrets/test-apim-secret&quot;,
+Received from script:     &quot;managed&quot;: null,
+Received from script:     &quot;name&quot;: &quot;test-apim-secret&quot;,
+Received from script:     &quot;tags&quot;: null
+Received from script:   }
+Received from script: ]
+Received from script: &quot;f1f49e108656411a93d79e64aad19cbb&quot;
+2020-07-30 15:42:36.027  INFO 20397 --- [    Test worker] u.g.h.f.hmi.hearing.HearingAPITest       : Starting HearingAPITest on Pettedsons-MBP.broadband with PID 20397 (started by johnp in /Users/johnp/Reform/hmi-integration-model)
+2020-07-30 15:42:36.028  INFO 20397 --- [    Test worker] u.g.h.f.hmi.hearing.HearingAPITest       : The following profiles are active: functional
+2020-07-30 15:42:38.309  INFO 20397 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-30 15:42:38.825  INFO 20397 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-30 15:42:39.186  WARN 20397 --- [    Test worker] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2020-07-30 15:42:39.258  INFO 20397 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-07-30 15:42:39.269  INFO 20397 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-07-30 15:42:39.323  INFO 20397 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-07-30 15:42:39.415  INFO 20397 --- [    Test worker] u.g.h.f.hmi.hearing.HearingAPITest       : Started HearingAPITest in 9.802 seconds (JVM running for 14.674)
+The value of TEST SUBSCRIPTION KEY &quot;f1f49e108656411a93d79e64aad19cbb&quot;
+The value of the targetSubscriptionKey &quot;f1f49e108656411a93d79e64aad19cbb&quot;
+2020-07-30 15:42:40.294 ERROR 20397 --- [    Test worker]                                          : 
+         __  _____ _____ ____ _____   _____ ____  ____   ___  ____  
+ _      / / |_   _| ____/ ___|_   _| | ____|  _ \|  _ \ / _ \|  _ \ 
+(_)____| |    | | |  _| \___ \ | |   |  _| | |_) | |_) | | | | |_) |
+ |_____| |    | | | |___ ___) || |   | |___|  _ &lt;|  _ &lt;| |_| |  _ &lt; 
+(_)    | |    |_| |_____|____/ |_|   |_____|_| \_\_| \_\\___/|_| \_\
+        \_\                                                         
+
+Test successfull get
+---------------------------------------------------------------------
+2020-07-30 15:42:40.300 ERROR 20397 --- [    Test worker]                                          :     class path resource [uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/poc-input.json] cannot be resolved to absolute file path because it does not exist
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.4.1</a> at 30 Jul 2020, 15:42:42</p>
+</div>
+</div>
+</body>
+</html>

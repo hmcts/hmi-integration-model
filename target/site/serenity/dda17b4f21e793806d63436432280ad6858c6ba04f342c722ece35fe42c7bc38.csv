@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Hearing API wiremock standalone test","Initialisation","ERROR","2020-07-29T11:35:48.490701+01:00[Europe/London]","0.0","0.0"
+"Hearing API wiremock standalone test","Should work from standalone mock","SUCCESS","2020-07-30T14:35:17.718945+01:00[Europe/London]","0.0","9.43"

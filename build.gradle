@@ -27,6 +27,7 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
+
 group = 'uk.gov.hmcts.futurehearings'
 version = '0.0.1'
 
@@ -81,6 +82,19 @@ tasks.withType(Test) {
   }
 }
 
+/*junitPlatform {
+
+  reportsDir file('build/test-results/test')
+
+  filters {
+    engines {
+      include 'junit-jupiter'
+    }
+    includeClassNamePattern '.*Test'
+  }
+  enableStandardTestTask false
+}*/
+
 configurations {
   integrationTestCompile.extendsFrom testCompile
   integrationTestRuntime.extendsFrom testRuntime
@@ -107,16 +121,15 @@ task functional(type: Test) {
   description = 'Executes functional tests'
   testClassesDirs = sourceSets.functionalTest.output.classesDirs
   classpath = sourceSets.functionalTest.runtimeClasspath
-  include "uk/gov/hmcts/futurehearings/hmi/functional/hearing/**"
+  include "uk/gov/hmcts/futurehearings/hmi/hearing/**"
   testLogging.showStandardStreams = true
   systemProperties System.getProperties()
   environment("APPINSIGHTS_INSTRUMENTATIONKEY", "test-key")
+  systemProperties.put("serenity.outputDirectory","target/site/functionality/reports")
+  systemProperties.put("serenity.test.root","uk.gov.hmcts.futurehearings.hmi.functional")
 
   enableAssertions = true
   scanForTestClasses = true
-
-  testLogging.showStandardStreams = true
-  systemProperties System.getProperties()
 }
 
 // Serenity Reporting
@@ -128,6 +141,11 @@ task integration(type: Test) {
   testClassesDirs = sourceSets.integrationTest.output.classesDirs
   classpath = sourceSets.integrationTest.runtimeClasspath
   failFast = true
+  include "uk/gov/hmcts/futurehearings/hmi/integration/**"
+
+  testLogging.showStandardStreams = true
+  systemProperties System.getProperties()
+  environment("APPINSIGHTS_INSTRUMENTATIONKEY", "test-key")
 }
 
 task smoke(type: Test) {
@@ -271,17 +289,43 @@ dependencies {
           "org.junit.vintage:junit-vintage-engine:5.6.2",
           "org.assertj:assertj-core:${assertJVersion}"
 
-  /*testImplementation libraries.junit5
-  testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', {
-    exclude group: 'junit', module: 'junit'
-    exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
-  }
-  functionalTestCompile libraries.junit5
-  functionalTestCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', {
-    exclude group: 'junit', module: 'junit'
-    exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
-  }*/
+  integrationTestImplementation ("org.springframework.boot:spring-boot-starter-web")
+  integrationTestImplementation group: 'net.serenity-bdd', name: 'serenity-rest-assured', version: versions.serenity
+  integrationTestImplementation group: 'net.serenity-bdd', name: 'serenity-core', version: versions.serenity
+  integrationTestImplementation group: 'net.serenity-bdd', name: 'serenity-junit', version: versions.serenity
+  integrationTestCompile group: 'net.serenity-bdd', name: 'serenity-spring', version: versions.serenity
+  integrationTestImplementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version :versions.serenity
+  //functionalTestCompile group: 'net.serenity-bdd', name: 'serenity-single-page-report', version: versions.serenityreporter
+  integrationTestImplementation "ch.qos.logback:logback-classic:1.2.3"
+  integrationTestImplementation "org.assertj:assertj-core:3.8.0"
+  integrationTestImplementation "junit:junit:${junitVersion}"
+  integrationTestImplementation "org.junit.vintage:junit-vintage-engine:5.6.2"
+  integrationTestCompile ("org.springframework.boot:spring-boot-starter-test")
+  integrationTestCompile group: 'io.springfox', name: 'springfox-swagger-ui', version: versions.springfoxSwagger
+  integrationTestImplementation group: 'io.springfox', name: 'springfox-swagger2', version: versions.springfoxSwagger
 
+  integrationTestImplementation group: 'io.rest-assured', name: 'xml-path', version: versions.restAssured
+  integrationTestImplementation group: 'io.rest-assured', name: 'json-path', version: versions.restAssured
+  integrationTestImplementation group: 'org.skyscreamer', name: 'jsonassert', version: '1.5.0'
+
+  integrationTestCompile "io.specto:hoverfly-java:0.13.0"
+  integrationTestCompile "io.specto:hoverfly-java-junit5:0.13.0"
+
+  integrationTestCompile("org.junit.jupiter:junit-jupiter-api:5.3.2")
+  integrationTestRuntime("org.junit.jupiter:junit-jupiter-engine:5.3.2")
+  integrationTestImplementation('org.junit.jupiter:junit-jupiter-api:5.3.2')
+
+  integrationTestAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
+  integrationTestCompileOnly 'org.projectlombok:lombok:1.18.12'
+
+  //integrationTestCompile group: 'com.github.tomakehurst', name: 'wiremock', version: '2.27.1'
+  //integrationTestCompile  group: 'com.github.tomakehurst', name: 'wiremock-jre8', version: '2.27.1'
+  testCompile group: 'com.github.tomakehurst', name: 'wiremock-standalone', version: '2.27.1'
+
+
+  /*integrationTestRuntime("org.junit.platform:junit-platform-launcher:1.0.1")
+  integrationTestRuntime("org.junit.jupiter:junit-jupiter-engine:5.0.1")
+  integrationTestRuntime("org.junit.vintage:junit-vintage-engine:4.12.1")*/
 
   functionalTestImplementation ("org.springframework.boot:spring-boot-starter-web")
   functionalTestImplementation group: 'net.serenity-bdd', name: 'serenity-rest-assured', version: versions.serenity
@@ -301,6 +345,10 @@ dependencies {
   functionalTestImplementation group: 'io.rest-assured', name: 'xml-path', version: versions.restAssured
   functionalTestImplementation group: 'io.rest-assured', name: 'json-path', version: versions.restAssured
   functionalTestImplementation group: 'org.skyscreamer', name: 'jsonassert', version: '1.5.0'
+
+  //For reading the keys from the vaults
+  functionalTestImplementation group: 'com.azure', name: 'azure-security-keyvault-secrets', version: '4.0.0'
+  functionalTestImplementation group: 'com.azure', name: 'azure-identity', version: '1.0.0'
 
 
 
