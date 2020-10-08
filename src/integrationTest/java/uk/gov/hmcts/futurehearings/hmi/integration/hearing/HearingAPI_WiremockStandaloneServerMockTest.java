@@ -40,7 +40,7 @@ public class HearingAPI_WiremockStandaloneServerMockTest {
 
     private static final String INPUT_FILE_PATH = "uk/gov/hmcts/futurehearings/hmi/integration/hearing/input";
 
-    WireMock wireMock = new WireMock("localhost", 9050);
+    WireMock wireMock = new WireMock("localhost", 8080);
     //WireMockServer wireMockServer = new WireMockServer("",8080);
 
     @Value("${employeeBaseURI}")

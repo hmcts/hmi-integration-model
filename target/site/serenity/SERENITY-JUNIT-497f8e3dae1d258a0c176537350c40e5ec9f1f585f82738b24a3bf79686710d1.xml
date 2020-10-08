@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="uk.gov.hmcts.futurehearings.hmi.integration.hearing.HearingAPI_WiremockTest" skipped="0" tests="1" time="0.0" timestamp="2020-09-08 01:56:58"><testcase classname="uk.gov.hmcts.futurehearings.hmi.integration.hearing.HearingAPI_WiremockTest" name="Initialisation"><error message="java.io.IOException: Failed to bind to /0.0.0.0:8080" type="java.lang.RuntimeException">java.io.IOException: Failed to bind to /0.0.0.0:8080</error><system-err>java.io.IOException: Failed to bind to /0.0.0.0:8080
+com.github.tomakehurst.wiremock.jetty9.JettyHttpServer.start(JettyHttpServer.java:192)
+com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:147)
+org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+</system-err></testcase></testsuite>

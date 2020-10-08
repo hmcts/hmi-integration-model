@@ -15,6 +15,7 @@ import net.thucydides.core.annotations.Narrative;
 import net.thucydides.core.annotations.Steps;
 import org.junit.Before;
 import org.junit.ClassRule;
+import org.junit.Ignore;
 import org.junit.Rule;
 
 import org.junit.Test;
@@ -31,7 +32,7 @@ import org.springframework.test.context.ActiveProfiles;
 @SpringBootTest(classes = {Application.class})
 @ActiveProfiles("integration")
 //@ExtendWith(HoverflyExtension.class)
-public class HearingAPI_WiremockTest {
+public class   HearingAPI_WiremockTest {
 
     @Steps
     HearingSteps hearingSteps;
@@ -60,7 +61,7 @@ public class HearingAPI_WiremockTest {
     public static WireMockClassRule wireMockRule = new WireMockClassRule(9000);*/
 
     @ClassRule
-    public static WireMockClassRule wireMockRule = new WireMockClassRule(9000);
+    public static WireMockClassRule wireMockRule = new WireMockClassRule(8080);
 
     @Rule
     public WireMockClassRule instanceRule = wireMockRule;
@@ -82,15 +83,16 @@ public class HearingAPI_WiremockTest {
     @Test
     public void should_get_time_on_employee_from_mock() {
         hearingSteps.invokeEmployeeWithPathParam(employeeAPIPath,
-                                    timeAPIPath,
+                                    "/product/p0001",
                     "/mock-demo-request.json");
     }
 
+    @Ignore
     @Test
     public void should_Email_on_employee_from_mock() {
 
         hearingSteps.invokeEmployeeWithQueryParam(employeeAPIPath,
-                                                    hmctsAPIPath,
+                                                    "/product/p0001",
                                     "/mock-demo-request.json");
     }
 }

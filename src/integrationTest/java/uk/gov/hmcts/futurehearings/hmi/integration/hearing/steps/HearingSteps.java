@@ -28,10 +28,11 @@ public class HearingSteps {
                 CONTENT_TYPE);
 
         //This is an invocation to a API URL with a path param...
-        expect().that().statusCode(201)
+        expect().that().statusCode(200)
                 .given().contentType(CONTENT_TYPE)
-                .basePath(baseAPIPath + "/1")
-                .when().post().then().extract().response();
+                .param("id","2")
+                .basePath(baseAPIPath)
+                .when().get().then().extract().response();
 
         verify_should_get_time_on_employee_from_mock_path_param(lastResponse(),mockAPIPath);
     }

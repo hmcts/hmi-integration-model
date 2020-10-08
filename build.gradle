@@ -142,9 +142,13 @@ task integration(type: Test) {
   classpath = sourceSets.integrationTest.runtimeClasspath
   failFast = true
   include "uk/gov/hmcts/futurehearings/hmi/integration/**"
-
+  scanForTestClasses(true)
   testLogging.showStandardStreams = true
   systemProperties System.getProperties()
+  /*useJUnitPlatform {
+    includeTags 'Prod'
+    //excludeTags 'slow'
+  }*/
   environment("APPINSIGHTS_INSTRUMENTATIONKEY", "test-key")
 }
 
@@ -227,6 +231,9 @@ repositories {
   mavenLocal()
   jcenter()
   mavenCentral()
+    maven {
+        url "https://jitpack.io"
+    }
 }
 
 def versions = [
@@ -288,6 +295,8 @@ dependencies {
           "junit:junit:${junitVersion}",
           "org.junit.vintage:junit-vintage-engine:5.6.2",
           "org.assertj:assertj-core:${assertJVersion}"
+  testCompile group: 'com.github.tomakehurst', name: 'wiremock', version: '2.27.1'
+  testCompile  group: 'com.github.tomakehurst', name: 'wiremock-jre8', version: '2.27.1'
 
   integrationTestImplementation ("org.springframework.boot:spring-boot-starter-web")
   integrationTestImplementation group: 'net.serenity-bdd', name: 'serenity-rest-assured', version: versions.serenity
@@ -298,8 +307,8 @@ dependencies {
   //functionalTestCompile group: 'net.serenity-bdd', name: 'serenity-single-page-report', version: versions.serenityreporter
   integrationTestImplementation "ch.qos.logback:logback-classic:1.2.3"
   integrationTestImplementation "org.assertj:assertj-core:3.8.0"
-  integrationTestImplementation "junit:junit:${junitVersion}"
-  integrationTestImplementation "org.junit.vintage:junit-vintage-engine:5.6.2"
+  //integrationTestImplementation "junit:junit:${junitVersion}"
+  //integrationTestImplementation "org.junit.vintage:junit-vintage-engine:5.6.2"
   integrationTestCompile ("org.springframework.boot:spring-boot-starter-test")
   integrationTestCompile group: 'io.springfox', name: 'springfox-swagger-ui', version: versions.springfoxSwagger
   integrationTestImplementation group: 'io.springfox', name: 'springfox-swagger2', version: versions.springfoxSwagger
@@ -311,21 +320,34 @@ dependencies {
   integrationTestCompile "io.specto:hoverfly-java:0.13.0"
   integrationTestCompile "io.specto:hoverfly-java-junit5:0.13.0"
 
-  integrationTestCompile("org.junit.jupiter:junit-jupiter-api:5.3.2")
+  /*integrationTestCompile("org.junit.jupiter:junit-jupiter-api:5.3.2")
   integrationTestRuntime("org.junit.jupiter:junit-jupiter-engine:5.3.2")
-  integrationTestImplementation('org.junit.jupiter:junit-jupiter-api:5.3.2')
+  integrationTestImplementation('org.junit.jupiter:junit-jupiter-api:5.3.2')*/
+
+  integrationTestImplementation "org.junit.jupiter:junit-jupiter:5.6.2"
+  /* acceptanceTestImplementation "org.junit.jupiter:junit-jupiter-api:5.6.2"
+   acceptanceTestImplementation "org.junit.jupiter:junit-jupiter-engine:5.6.2"
+   acceptanceTestImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.6.2'*/
+  integrationTestImplementation "org.junit.vintage:junit-vintage-engine:5.6.2"
+
+  integrationTestImplementation group: 'org.junit.platform', name: 'junit-platform-launcher', version: '1.6.2'
+  integrationTestImplementation group: 'org.junit.platform', name: 'junit-platform-commons', version: '1.6.2'
+  integrationTestImplementation group: 'org.junit.platform', name: 'junit-platform-engine', version: '1.6.2'
+  integrationTestImplementation group: 'org.junit.platform', name: 'junit-platform-suite-api', version: '1.6.2'
+  integrationTestImplementation group: 'org.junit.platform', name: 'junit-platform-runner', version: '1.6.2'
 
   integrationTestAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
   integrationTestCompileOnly 'org.projectlombok:lombok:1.18.12'
 
-  //integrationTestCompile group: 'com.github.tomakehurst', name: 'wiremock', version: '2.27.1'
-  //integrationTestCompile  group: 'com.github.tomakehurst', name: 'wiremock-jre8', version: '2.27.1'
-  testCompile group: 'com.github.tomakehurst', name: 'wiremock-standalone', version: '2.27.1'
+  //integrationTestImplementation group: 'com.github.tomakehurst', name: 'wiremock', version: '2.27.1'
+  //integrationTestImplementation  group: 'com.github.tomakehurst', name: 'wiremock-jre8', version: '2.27.1'
+  integrationTestImplementation group: 'com.github.tomakehurst', name: 'wiremock-standalone', version: '2.27.1'
 
 
   /*integrationTestRuntime("org.junit.platform:junit-platform-launcher:1.0.1")
   integrationTestRuntime("org.junit.jupiter:junit-jupiter-engine:5.0.1")
   integrationTestRuntime("org.junit.vintage:junit-vintage-engine:4.12.1")*/
+  integrationTestImplementation group: 'com.github.everit-org.json-schema', name: 'org.everit.json.schema', version: '1.12.1'
 
   functionalTestImplementation ("org.springframework.boot:spring-boot-starter-web")
   functionalTestImplementation group: 'net.serenity-bdd', name: 'serenity-rest-assured', version: versions.serenity

@@ -20,383 +20,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="059315d4-be98-4496-97de-caf908369f07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/charts/hmi-test/Chart.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/charts/hmi-test/requirements.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/charts/hmi-test/values.aat.template.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/charts/hmi-test/values.preview.template.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/charts/hmi-test/values.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/poc/hoverfly/HearingAPI_HoverflyJunit5Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/junit5/tagging/TaggingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/functionalTest/uk/gov/hmcts/futurehearings/hmi/functional/common/TestingUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/functionalTest/uk/gov/hmcts/futurehearings/hmi/functional/hearing/HearingAPITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/functionalTest/uk/gov/hmcts/futurehearings/hmi/functional/hearing/steps/HearingSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/functionalTest/uk/gov/hmcts/futurehearings/hmi/functional/hearing/steps/verify/HearingResponseVerification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/uk/gov/hmcts/futurehearings/hmi/functional/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/uk/gov/hmcts/futurehearings/hmi/functional/config/SwaggerConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/uk/gov/hmcts/futurehearings/hmi/functional/controllers/RootController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jacoco/functional.exec" beforeDir="false" afterPath="$PROJECT_DIR$/build/jacoco/functional.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/functional/classes/uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/functional/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/functional/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/functional/packages/uk.gov.hmcts.futurehearings.hmi.functional.hearing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/functionalTest/application-functional.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/functionalTest/application-functional.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/functionalTest/uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/mock-demo-request.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/functionalTest/uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/poc-input.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/functionalTest/uk/gov/hmcts/futurehearings/hmi/functional/hearing/output/mock-demo-response.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/functional/TEST-uk.gov.hmcts.futurehearings.hmi.functional.hearing.HearingAPITest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/functional/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/functional/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/functional/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/functional/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/functional/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/functional/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalTest/java/uk/gov/hmcts/futurehearings/hmi/functional/common/TestingUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalTest/java/uk/gov/hmcts/futurehearings/hmi/common/TestingUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalTest/java/uk/gov/hmcts/futurehearings/hmi/functional/hearing/HearingAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalTest/java/uk/gov/hmcts/futurehearings/hmi/hearing/HearingAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalTest/java/uk/gov/hmcts/futurehearings/hmi/functional/hearing/steps/HearingSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalTest/java/uk/gov/hmcts/futurehearings/hmi/hearing/steps/HearingSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalTest/java/uk/gov/hmcts/futurehearings/hmi/functional/hearing/steps/verify/HearingResponseVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalTest/java/uk/gov/hmcts/futurehearings/hmi/hearing/steps/verify/HearingResponseVerification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalTest/resources/application-functional.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalTest/resources/application-functional.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalTest/resources/uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/mock-demo-request.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalTest/resources/uk/gov/hmcts/futurehearings/hmi/hearing/input/mock-demo-request.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalTest/resources/uk/gov/hmcts/futurehearings/hmi/functional/hearing/input/poc-input.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalTest/resources/uk/gov/hmcts/futurehearings/hmi/hearing/input/poc-input.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalTest/resources/uk/gov/hmcts/futurehearings/hmi/functional/hearing/output/mock-demo-response.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalTest/resources/uk/gov/hmcts/futurehearings/hmi/hearing/output/mock-demo-response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/functional/config/SwaggerPublisherTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/functional/controllers/GetWelcomeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/gov/hmcts/futurehearings/hmi/functional/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/gov/hmcts/futurehearings/hmi/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/gov/hmcts/futurehearings/hmi/functional/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/gov/hmcts/futurehearings/hmi/config/SwaggerConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/gov/hmcts/futurehearings/hmi/functional/controllers/RootController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/gov/hmcts/futurehearings/hmi/controllers/RootController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uk/gov/hmcts/futurehearings/hmi/functional/DemoUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/gov/hmcts/futurehearings/hmi/DemoUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/006f5964c9b9cf81fa460e1cab15607ac50aed27aa2a8b6b97d3862785bbc593.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/0914b97c01aa98ef429a9964bdcbf5aaec7a659101b751b9091210cb9550464a.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/0f100afa2fee55fd29de7dac51c5300fb6f58b371f592c45bd468caf5c5504c0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/0f100afa2fee55fd29de7dac51c5300fb6f58b371f592c45bd468caf5c5504c0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/104ad90f06e770f1da130e323e176751e07f7579ec583fb5638a1f5036528b04.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/1b0e2bf8b192ccf553a98794e55b3113feb2a1aa8e93f3823088d4e788502262.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/1de0c283ed15af10b82ce11ba117f5d80c149d0b0701089aac6d805280ba3d28.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/201acd934b5c049489f93194d52d7a73fff1a8f02a4dd1e94db0e3e540be7714.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/3916922de143f1c84bccf8e5067d01fe36b30592013719e5d66769e6af8b0317.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/44b1d1c811c4ce46a7877265de7fefe8b5b0f48804f1d53fc90f2d8c8e165e65.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/44b1d1c811c4ce46a7877265de7fefe8b5b0f48804f1d53fc90f2d8c8e165e65.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b47ad9b2239286e607b7e89c3e3b9b3666c7d59be4eefc66242d304ed43479c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/6b630fc001e04742daad511c2beb0941336277b2ac0cce70089fdaba47e8bd65.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/71c93e0cd6b25c588326cd8b85a6784cb64722736d07dc74b17e37090ca94700.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7a531c52a008d49c74f5d5dc0d0d116aa18bf6dd3fc3645d8a1792548cef920e.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/86ae4d1d9cfa5dbdc6ff13f7e57aee5d85707abd3fc6c156fef074346fa30ec4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/93e0e45814e4f3dadf33e5377993d9ea39fa323aa4124c1326a8f0ec06c8f67f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/945c2a58104fd02cbcc405d8f1556cee8cc847d38d289aaf7a567034e02aae5a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9f3ce6178239dc64285c9b339a9a3de053b9aefad961723622a306024080bc80.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-caa4d315508204b27fb76f7c3ed1caab88f3b73187a3f4dd97d16a45a1c0d778.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a0ace456df350117335ad374e8d62c0d8c978db868ea1469e0c5ba32aac965ea.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/abd3ed332b350c0aae4355c34e8003b79e31c8d3986b0d9367c97776873374f3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/android-icon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap-treeview/dist/bootstrap-treeview.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap-treeview/dist/bootstrap-treeview.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bootstrap/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c1b352893c3d69e59317fd825f20a75f987a859afe98fb4434f47dce70c48fd4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c1b352893c3d69e59317fd825f20a75f987a859afe98fb4434f47dce70c48fd4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c4e89257983a7b4bb79d47018008e99297abe186313deff4eb61dae46e61a459.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/caa4d315508204b27fb76f7c3ed1caab88f3b73187a3f4dd97d16a45a1c0d778.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/caa4d315508204b27fb76f7c3ed1caab88f3b73187a3f4dd97d16a45a1c0d778.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/.bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/dist/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/aliases.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/clean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/copy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/jasmine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/jshint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/sass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/uglify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/chartist-plugin-tooltip/tasks/umd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/dist/chartist.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/dist/chartist.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/dist/chartist.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/chartist/dist/chartist.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/link.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/screen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/css/tables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/d1013156427d1e3d4a8e85893431d0c85754cb87a0158a6fa2e88ca7c026eb9d.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/datatables.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/datatables.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/datatables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.19/time-elapsed-dhms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/dataTables.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/jquery.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/css/jquery.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/images/sort_asc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/images/sort_desc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.bootstrap4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.foundation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.foundation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.jqueryui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.jqueryui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.semanticui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/dataTables.semanticui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/DataTables-1.10.20/js/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/datatables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/datatables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/datatables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/datatables/1.10.20/time-elapsed-dhms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/dygraph/1.1.0/dygraph-combined.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ea41048007ca26044474f073c7c0d88e05147b22c248ed24d8d54b02f5260f91.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/eb7413e68c29fce1819619e38319d8f3ca28e7fd9756515d1c60d0df320f6281.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ece699258fd60629b813f5697e5b4b04cd2aea432d7c1eb711e74daf183d2392.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.compiled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/excanvas/3/excanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fcd5ae23b07c05dd74806f7b1c21b59e073dff8380da7e7fc2086d4036edcf45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/flow/serenity.configuration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/css/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/css/v4-shims.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/bg_01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/bg_04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/bottomm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/cross.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-appium.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-chrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-firefox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-htmlunit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-iexplorer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-opera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-phantomjs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-provided.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-remote.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/driver-safari.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/fail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/greenline.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/ico-q.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/icon-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/ignor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/links_menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/menu_f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/menu_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/menu_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/middle-left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/middle-right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/middle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/pending.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/serenity-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/skip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/small-middle-left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/small-middle-right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/small-middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/tablebg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/top-left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/top-right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/top.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/topm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-green.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-in-progress.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-orange.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-red.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/traffic-yellow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/video.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/images/worker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit-yc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/2.0.1/jit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/AreaChart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/BarChart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/ForceDirected3D.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/HeatMap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Hypertree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Icicle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Other.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/PieChart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/RGraph.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Spacetree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Sunburst.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/TimeGraph.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/Treemap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/col1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/col2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jit/css/gradient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree-circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/jqtree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqtree/0.22/tree.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/external/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_55_999999_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_flat_75_aaaaaa_40x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_45_0078ae_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_55_f8da4e_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_glass_75_79c9ec_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_0078ae_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_056b93_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_d8e7f3_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_e0fdff_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f5e175_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_f7a50d_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/images/ui-icons_fcd113_256x240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/ms-icon-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/dev7logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/nemo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/toystory.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/up.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/images/walle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/scripts/jquery-1.9.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/demo/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivo-slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/nivoslider.jquery.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/bar/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/dark/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/default/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/bullets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/nivo-slider/3.2/themes/light/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/requirements/uk.gov.hmcts.futurehearings.hmi.functional-package-requirements.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/imgpreview.full.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/jquery-1.11.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/serenity-resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/integrationTest/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockStandaloneServerMockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/integrationTest/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockStandaloneServerMockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/integrationTest/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockStandaloneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/integrationTest/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockStandaloneTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/integrationTest/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/integrationTest/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/integrationTest/uk/gov/hmcts/futurehearings/hmi/integration/hearing/steps/HearingSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/integrationTest/uk/gov/hmcts/futurehearings/hmi/integration/hearing/steps/HearingSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/integrationTest/uk/gov/hmcts/futurehearings/hmi/integration/hearing/steps/verify/HearingResponseVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/integrationTest/uk/gov/hmcts/futurehearings/hmi/integration/hearing/steps/verify/HearingResponseVerification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jacoco/integration.exec" beforeDir="false" afterPath="$PROJECT_DIR$/build/jacoco/integration.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/integration/classes/uk.gov.hmcts.futurehearings.hmi.integration.junit5.TrialTestContainer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/integration/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/integration/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/integration/packages/uk.gov.hmcts.futurehearings.hmi.integration.junit5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/integration/TEST-uk.gov.hmcts.futurehearings.hmi.integration.junit5.TrialTestContainer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/integration/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/integration/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/integration/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/integration/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/integration/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/integration/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockStandaloneServerMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockStandaloneServerMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockStandaloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockStandaloneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/hearing/HearingAPI_WiremockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/hearing/steps/HearingSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/hearing/steps/HearingSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/hearing/steps/verify/HearingResponseVerification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/hearing/steps/verify/HearingResponseVerification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Sample.json" beforeDir="false" afterPath="$PROJECT_DIR$/wiremock/__files/Sample.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TimeMapping-SeparateBody.json" beforeDir="false" afterPath="$PROJECT_DIR$/wiremock/mappings/TimeMapping-SeparateBody.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0b89369026b7a9c56706e1f0a76ef0c6b3f99f2afe9d602fb7c749e99dbd713a.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0b89369026b7a9c56706e1f0a76ef0c6b3f99f2afe9d602fb7c749e99dbd713a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0b89369026b7a9c56706e1f0a76ef0c6b3f99f2afe9d602fb7c749e99dbd713a.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0b89369026b7a9c56706e1f0a76ef0c6b3f99f2afe9d602fb7c749e99dbd713a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/10c95a0a257cdc7c7894745e3b97c68d657e880e77abc58215053f4eeb9300e3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/10c95a0a257cdc7c7894745e3b97c68d657e880e77abc58215053f4eeb9300e3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/10c95a0a257cdc7c7894745e3b97c68d657e880e77abc58215053f4eeb9300e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/10c95a0a257cdc7c7894745e3b97c68d657e880e77abc58215053f4eeb9300e3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/153abdb7ff39deb6bfb9b8a32d173a638dc806d6f2244e18cd2d768843433ff0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/153abdb7ff39deb6bfb9b8a32d173a638dc806d6f2244e18cd2d768843433ff0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/153abdb7ff39deb6bfb9b8a32d173a638dc806d6f2244e18cd2d768843433ff0.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/153abdb7ff39deb6bfb9b8a32d173a638dc806d6f2244e18cd2d768843433ff0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-0b89369026b7a9c56706e1f0a76ef0c6b3f99f2afe9d602fb7c749e99dbd713a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-0b89369026b7a9c56706e1f0a76ef0c6b3f99f2afe9d602fb7c749e99dbd713a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-10c95a0a257cdc7c7894745e3b97c68d657e880e77abc58215053f4eeb9300e3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-10c95a0a257cdc7c7894745e3b97c68d657e880e77abc58215053f4eeb9300e3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-153abdb7ff39deb6bfb9b8a32d173a638dc806d6f2244e18cd2d768843433ff0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-153abdb7ff39deb6bfb9b8a32d173a638dc806d6f2244e18cd2d768843433ff0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-bbc78ab9f459c72a560a37b5af38f61718c49be47720e3df66e813bf2fe9f7c5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-bbc78ab9f459c72a560a37b5af38f61718c49be47720e3df66e813bf2fe9f7c5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bbc78ab9f459c72a560a37b5af38f61718c49be47720e3df66e813bf2fe9f7c5.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bbc78ab9f459c72a560a37b5af38f61718c49be47720e3df66e813bf2fe9f7c5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bbc78ab9f459c72a560a37b5af38f61718c49be47720e3df66e813bf2fe9f7c5.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bbc78ab9f459c72a560a37b5af38f61718c49be47720e3df66e813bf2fe9f7c5.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -420,11 +90,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="hmi-integration-model" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="hmi-integration-model" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -469,26 +134,27 @@
       <recent name="$PROJECT_DIR$/wiremock" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="uk.gov.hmcts.futurehearings.hmi" />
       <recent name="uk.gov.hmcts.futurehearings.hmi.integration.junit5.verify" />
       <recent name="uk.gov.hmcts.futurehearings.hmi.integration.hearing.stub" />
       <recent name="uk.gov.hmcts.futurehearings.hmi.integration.hearing" />
       <recent name="uk.gov.hmcts.futurehearings.hmi.integration.hearing.common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wiremock/__files" />
+      <recent name="$PROJECT_DIR$/wiremock/mappings" />
       <recent name="$PROJECT_DIR$/target" />
       <recent name="$PROJECT_DIR$/script" />
       <recent name="$PROJECT_DIR$/src/functionalTest/resources/uk/gov/hmcts/futurehearings/hmi/functional/input" />
-      <recent name="$PROJECT_DIR$/src/functionalTest/resources/uk/gov/hmcts/futurehearings.hmi.functional.input" />
-      <recent name="$PROJECT_DIR$/src/functionalTest/resources/uk/gov/hmcts" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TrialTestContainer">
-    <configuration name="A" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.EveritJsonSchemaValidation.TestBasicSchemaValidationWithExternalReferences">
+    <configuration name="EveritJsonSchemaValidation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;uk.gov.hmcts.futurehearings.hmi.integration.junit5.TrialTestContainer$A&quot;" />
+        <option name="scriptParameters" value="--tests &quot;uk.gov.hmcts.futurehearings.hmi.integration.schema.EveritJsonSchemaValidation&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -502,12 +168,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrialTestContainer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EveritJsonSchemaValidation.TestBasicSchemaValidationWithExternalReferences" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;uk.gov.hmcts.futurehearings.hmi.integration.junit5.TrialTestContainer&quot;" />
+        <option name="scriptParameters" value="--tests &quot;uk.gov.hmcts.futurehearings.hmi.integration.schema.EveritJsonSchemaValidation.TestBasicSchemaValidationWithExternalReferences&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -521,12 +187,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrialTestContainer.dynamicTestsFromCollection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HearingAPI_WiremockStandaloneTest.should_work_from_standalone_mock" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;uk.gov.hmcts.futurehearings.hmi.integration.junit5.TrialTestContainer.dynamicTestsFromCollection&quot;" />
+        <option name="scriptParameters" value="--tests &quot;uk.gov.hmcts.futurehearings.hmi.integration.hearing.HearingAPI_WiremockStandaloneTest.should_work_from_standalone_mock&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -540,12 +206,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrialTestContainer.test_Add" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HearingAPI_WiremockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;uk.gov.hmcts.futurehearings.hmi.integration.junit5.TrialTestContainer.test_Add&quot;" />
+        <option name="scriptParameters" value="--tests &quot;uk.gov.hmcts.futurehearings.hmi.integration.hearing.HearingAPI_WiremockTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -559,12 +225,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrialTestContainer.test_Devide" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HearingAPI_WiremockTest.should_get_time_on_employee_from_mock" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;uk.gov.hmcts.futurehearings.hmi.integration.junit5.TrialTestContainer.test_Devide&quot;" />
+        <option name="scriptParameters" value="--tests &quot;uk.gov.hmcts.futurehearings.hmi.integration.hearing.HearingAPI_WiremockTest.should_get_time_on_employee_from_mock&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -579,19 +245,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.TrialTestContainer.dynamicTestsFromCollection" />
-      <item itemvalue="Gradle.TrialTestContainer" />
-      <item itemvalue="Gradle.TrialTestContainer.test_Add" />
-      <item itemvalue="Gradle.TrialTestContainer.test_Devide" />
-      <item itemvalue="Gradle.A" />
+      <item itemvalue="Gradle.HearingAPI_WiremockTest" />
+      <item itemvalue="Gradle.HearingAPI_WiremockTest.should_get_time_on_employee_from_mock" />
+      <item itemvalue="Gradle.HearingAPI_WiremockStandaloneTest.should_work_from_standalone_mock" />
+      <item itemvalue="Gradle.EveritJsonSchemaValidation" />
+      <item itemvalue="Gradle.EveritJsonSchemaValidation.TestBasicSchemaValidationWithExternalReferences" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TrialTestContainer" />
-        <item itemvalue="Gradle.A" />
-        <item itemvalue="Gradle.TrialTestContainer.test_Devide" />
-        <item itemvalue="Gradle.TrialTestContainer.dynamicTestsFromCollection" />
-        <item itemvalue="Gradle.TrialTestContainer.test_Add" />
+        <item itemvalue="Gradle.EveritJsonSchemaValidation.TestBasicSchemaValidationWithExternalReferences" />
+        <item itemvalue="Gradle.EveritJsonSchemaValidation" />
+        <item itemvalue="Gradle.HearingAPI_WiremockStandaloneTest.should_work_from_standalone_mock" />
+        <item itemvalue="Gradle.HearingAPI_WiremockTest.should_get_time_on_employee_from_mock" />
+        <item itemvalue="Gradle.HearingAPI_WiremockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -621,10 +287,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="98" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596100891164">
+    <state x="98" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598449849849">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="98" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1596100891164" />
+    <state x="98" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1598449849849" />
     <state x="100" y="123" width="1480" height="827" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1595001570880">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -661,22 +327,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="538" y="172" key="EnvironmentVariablesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1596100786273" />
-    <state width="1638" height="402" key="GridCell.Tab.0.bottom" timestamp="1597248495337">
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1602171897836">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="402" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1597248495337" />
-    <state width="1638" height="402" key="GridCell.Tab.0.center" timestamp="1597248495336">
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602171897836" />
+    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1602171897835">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="402" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1597248495336" />
-    <state width="1638" height="402" key="GridCell.Tab.0.left" timestamp="1597248495336">
+    <state width="1638" height="246" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602171897835" />
+    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1602171897835">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="402" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1597248495336" />
-    <state width="1638" height="402" key="GridCell.Tab.0.right" timestamp="1597248495336">
+    <state width="1638" height="246" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602171897835" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1602171897836">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="402" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1597248495336" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602171897836" />
     <state width="1638" height="393" key="GridCell.Tab.1.bottom" timestamp="1597139400684">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -709,10 +375,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1595192946183" />
-    <state x="505" y="250" key="search.everywhere.popup" timestamp="1595194161132">
+    <state x="505" y="250" key="search.everywhere.popup" timestamp="1597415011636">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="505" y="250" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1595194161132" />
+    <state x="505" y="250" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1597415011636" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -724,7 +390,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/integrationTest/java/uk/gov/hmcts/futurehearings/hmi/integration/hearing/steps/HearingSteps.java</url>
-          <line>52</line>
+          <line>53</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

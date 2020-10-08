@@ -14,14 +14,14 @@ public class HearingResponseVerification {
     public static final void verify_should_get_time_on_employee_from_mock_path_param(final Response response,
                                                                                      final String mockAPIPath) {
 
-        verify(1,getRequestedFor(urlEqualTo("/api/json/cet/now")));
+        verify(1,getRequestedFor(urlEqualTo("/product/p0001")));
 
         // When
         //LocalTime time = response.getTime("cet");
         System.out.println(response.getBody().asString());
         assertEquals(4,response.getBody().jsonPath().getMap("$").size());
         Map<String, String> responseMap = response.getBody().jsonPath().getMap("$");
-        assertEquals("Central Europe Standard Time FROM HMCTS",responseMap.get(("lastName")));
+        assertEquals("Kolenchiskey",responseMap.get(("lastName")));
 
     }
 
