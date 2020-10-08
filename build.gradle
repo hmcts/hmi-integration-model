@@ -318,7 +318,7 @@ dependencies {
   integrationTestImplementation group: 'org.skyscreamer', name: 'jsonassert', version: '1.5.0'
 
   integrationTestCompile "io.specto:hoverfly-java:0.13.0"
-  integrationTestCompile "io.specto:hoverfly-java-junit5:0.13.0"
+  integrationTestCompile "io.specto:hoverfly-java-junit5:0.13.1"
 
   /*integrationTestCompile("org.junit.jupiter:junit-jupiter-api:5.3.2")
   integrationTestRuntime("org.junit.jupiter:junit-jupiter-engine:5.3.2")
