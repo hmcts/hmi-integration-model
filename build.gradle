@@ -370,7 +370,7 @@ dependencies {
 
   //For reading the keys from the vaults
   functionalTestImplementation group: 'com.azure', name: 'azure-security-keyvault-secrets', version: '4.0.0'
-  functionalTestImplementation group: 'com.azure', name: 'azure-identity', version: '1.0.0'
+  functionalTestImplementation group: 'com.azure', name: 'azure-identity', version: '1.2.5'
 
 
 
