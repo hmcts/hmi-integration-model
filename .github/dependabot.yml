@@ -1,0 +1,38 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: net.serenity-bdd:serenity-single-page-report
+    versions:
+    - 2.3.12
+    - 2.3.31
+    - 2.4.1
+  - dependency-name: org.springframework.boot
+    versions:
+    - 2.4.2
+    - 2.4.3
+    - 2.4.4
+  - dependency-name: com.azure:azure-security-keyvault-secrets
+    versions:
+    - 4.2.4
+    - 4.2.5
+    - 4.2.6
+  - dependency-name: com.azure:azure-identity
+    versions:
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+  - dependency-name: net.serenity-bdd:serenity-gradle-plugin
+    versions:
+    - 2.3.12
+    - 2.3.31
+  - dependency-name: org.springframework.cloud:spring-cloud-starter-netflix-hystrix
+    versions:
+    - 2.2.6.RELEASE
+  - dependency-name: com.github.ben-manes.versions
+    versions:
+    - 0.36.0
