@@ -369,7 +369,7 @@ dependencies {
   functionalTestImplementation group: 'org.skyscreamer', name: 'jsonassert', version: '1.5.0'
 
   //For reading the keys from the vaults
-  functionalTestImplementation group: 'com.azure', name: 'azure-security-keyvault-secrets', version: '4.0.0'
+  functionalTestImplementation group: 'com.azure', name: 'azure-security-keyvault-secrets', version: '4.3.0'
   functionalTestImplementation group: 'com.azure', name: 'azure-identity', version: '1.0.0'
 
 
